@@ -1,0 +1,36 @@
+Lição Aprendida nº 001
+
+Eu registraria isso no Design Journal como:
+
+DJ-0001 — Interação entre set -e e pós-incremento em Bash
+
+Contexto
+
+Durante a implementação do filesystem.sh, o script encerrava prematuramente ao executar:
+
+((ALREADY_EXISTS++))
+
+com set -e habilitado.
+
+Causa
+
+Em Bash, ((expr)) retorna status 1 quando o valor da expressão é zero. No pós-incremento (contador++), a expressão retorna primeiro o valor antigo. Como o contador iniciava em 0, a primeira execução retornava status 1, fazendo o set -e abortar o script.
+
+Decisão
+
+Adotar como padrão do IFAS:
+
+((++contador))
+
+em vez de:
+
+((contador++))
+
+para todos os scripts Bash.
+
+Justificativa
+
+Compatível com set -e.
+Mais previsível.
+Evita encerramentos inesperados.
+Torna o padrão uniforme em todo o projeto.
