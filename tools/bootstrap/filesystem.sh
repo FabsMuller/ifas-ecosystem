@@ -169,10 +169,10 @@ create_directory() {
     local dir="${ROOT_DIR}/$1"
 
     if [[ -d "$dir" ]]; then
-        ((ALREADY_EXISTS++))
+        ((++ALREADY_EXISTS))
     else
         mkdir -p "$dir"
-        ((DIRECTORIES_CREATED++))
+        ((++DIRECTORIES_CREATED))
         echo "  + Directory: $1"
     fi
 }
@@ -182,10 +182,10 @@ create_file() {
     local file="${ROOT_DIR}/$1"
 
     if [[ -f "$file" ]]; then
-        ((ALREADY_EXISTS++))
+        ((++ALREADY_EXISTS))
     else
         touch "$file"
-        ((FILES_CREATED++))
+        ((++FILES_CREATED))
         echo "  + File: $1"
     fi
 }
