@@ -38,6 +38,9 @@ GITHUB_REPOSITORY="$PROJECT_NAME"
 # Project visibility
 GITHUB_VISIBILITY="public"
 
+# Git remote name
+GITHUB_REMOTE_NAME="origin"
+
 ###############################################################################
 # GitHub Project
 ###############################################################################
