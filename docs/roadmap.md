@@ -15,6 +15,15 @@
 - [x] Validar idempotência e execução fora da raiz do repositório.
 - [x] Registrar os aprendizados de engenharia no Design Journal.
 
-## Próxima sprint
+## Sprint 2 — Metodologia Consolidada
 
-Planejamento pendente.
+- [x] Formalizar o IFAS-P-001 — Princípio da Tradutibilidade.
+- [x] Formalizar os princípios de engenharia IFAS-E-001 a IFAS-E-005.
+- [x] Criar o template de ADR e a estrutura de registros arquiteturais.
+- [x] Criar o template de RFC e a estrutura de propostas.
+- [x] Criar o template de Design Journal e seu índice.
+- [x] Formalizar a Definition of Done (DoD).
+- [x] Formalizar o Framework de Rastreabilidade.
+- [x] Definir o AI-Ready Context.
+- [ ] Elaborar o Manifesto IFAS.
+- [ ] Validar a metodologia em uma aplicação real.

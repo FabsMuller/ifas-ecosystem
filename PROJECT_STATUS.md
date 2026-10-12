@@ -27,6 +27,23 @@ realiza commit ou push.
 - Design Journals DJ-0001, DJ-0002 e DJ-0003;
 - testes de idempotência e de execução fora da raiz concluídos com sucesso.
 
+## Sprint 2 — Metodologia Consolidada
+
+**Status:** Em andamento  
+**Início:** 2026-10-12
+
+### Entregáveis concluídos
+
+- IFAS-P-001 — Princípio da Tradutibilidade;
+- IFAS-E-001 a IFAS-E-005 — Princípios de Engenharia;
+- template de ADR e diretório de registros arquiteturais;
+- template de RFC e diretório de propostas;
+- template de Design Journal e índice de journals;
+- Definition of Done (DoD);
+- Framework de Rastreabilidade.
+- AI-Ready Context.
+
 ### Próximo marco
 
-Definir e iniciar a próxima sprint a partir do roadmap do projeto.
+Revisar e aprovar o **Manifesto IFAS**, que consolida os compromissos
+metodológicos do ecossistema antes da validação em uma aplicação real.
